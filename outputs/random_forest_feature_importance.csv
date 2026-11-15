@@ -1,0 +1,52 @@
+feature,importance
+num__max_power,0.6105792645664557
+num__year,0.12112733324620452
+num__vehicle_age,0.11480506414669932
+num__km_driven,0.0486622542872397
+num__mileage,0.0273960383230009
+num__engine,0.023043920739790686
+num__seats,0.011585923950559802
+cat__brand_Mercedes-Benz,0.005362221044057592
+cat__brand_Toyota,0.005100954279070343
+cat__brand_Tata,0.004088510244937136
+cat__fuel_Diesel,0.0036359792428880206
+cat__transmission_Automatic,0.003461766938675452
+cat__fuel_Petrol,0.003065822549492257
+cat__transmission_Manual,0.0024663799706507927
+cat__owner_First Owner,0.0019616701314718846
+cat__brand_Bmw,0.0016007547355756501
+cat__seller_type_Individual,0.0014812810874159695
+cat__seller_type_Dealer,0.0012400769239168932
+cat__owner_Test Drive Car,0.0011980405996183411
+cat__owner_Second Owner,0.0008579817791560157
+cat__brand_Chevrolet,0.0008192517077464398
+cat__brand_Ford,0.0008082074236896609
+cat__brand_Mahindra,0.000688756717034942
+cat__brand_Volkswagen,0.0006413642058272463
+cat__brand_Maruti,0.0005663527160316844
+cat__brand_Audi,0.0005552271140036087
+cat__brand_Hyundai,0.0005325545174732657
+cat__brand_Skoda,0.0004991189261320081
+cat__brand_Jaguar,0.0004928651829957201
+cat__brand_Honda,0.000373141615249594
+cat__brand_Volvo,0.00029384221183314754
+cat__owner_Third Owner,0.0002360710608562376
+cat__brand_Renault,0.00020503369973974027
+cat__brand_Kia,0.00019505232108787222
+cat__brand_Land,9.133776792018283e-05
+cat__owner_Fourth & Above Owner,5.7648923971042026e-05
+cat__brand_Fiat,5.7233673079527856e-05
+cat__brand_Mg,4.193592738770746e-05
+cat__brand_Datsun,4.101145200374762e-05
+cat__brand_Jeep,2.4271647993472674e-05
+cat__brand_Mitsubishi,2.2359064634128762e-05
+cat__brand_Nissan,2.0389402381491815e-05
+cat__fuel_Lpg,1.2283169425974363e-05
+cat__fuel_Cng,2.358034706620715e-06
+cat__brand_Isuzu,8.531088937639727e-07
+cat__brand_Ambassador,1.3000789592856937e-07
+cat__seller_type_Trustmark Dealer,5.5326927880233604e-08
+cat__brand_Daewoo,5.428620028357513e-08
+cat__brand_Force,0.0
+cat__brand_Opel,0.0
+cat__brand_Peugeot,0.0

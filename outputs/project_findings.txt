@@ -1,0 +1,33 @@
+PROJECT FINDINGS
+
+Source dataset: Car details v3.csv (8,128 rows, 13 columns).
+
+Raw missing values: mileage: 221 (2.7%); engine: 221 (2.7%); max_power: 215 (2.6%); torque: 222 (2.7%); seats: 221 (2.7%)
+
+Exact duplicate rows: 1,202; removed as repeated records.
+
+Raw specification fields mileage, engine, max_power, and torque include unit-bearing text; numeric specifications were extracted for mileage, engine, and max_power. Torque remains available in the cleaned file but is not used as a model feature because its formats and units are inconsistent.
+
+Potentially extreme numeric values were flagged by the IQR rule and retained because an IQR flag alone does not establish that a vehicle record is invalid.
+
+After cleaning: 6,926 rows. Brand is the first name token; vehicle_age is 2026 minus manufacturing year.
+
+Median price charts compare groups without letting a small number of very expensive vehicles dominate the summary. Correlations and group differences are descriptive and do not establish causation.
+
+Test metrics (same held-out 20% split; lower MAE/RMSE and higher R-squared are preferable):
+
+            model           MAE          RMSE       R2
+    Random Forest  71682.899040 121352.326662 0.932855
+    Decision Tree  87398.129317 159536.171422 0.883952
+Linear Regression 133099.050471 261925.320908 0.687195
+
+Selected model by lowest test RMSE: Random Forest.
+
+Top Random Forest features (impurity-based importance; descriptive rather than causal):
+
+         feature  importance
+  num__max_power    0.610579
+       num__year    0.121127
+num__vehicle_age    0.114805
+  num__km_driven    0.048662
+    num__mileage    0.027396

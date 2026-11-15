@@ -1,0 +1,67 @@
+Source: dataset\Car details v3.csv
+Shape: (8128, 13)
+
+Columns and dtypes:
+name              object
+year               int64
+selling_price      int64
+km_driven          int64
+fuel              object
+seller_type       object
+transmission      object
+owner             object
+mileage           object
+engine            object
+max_power         object
+torque            object
+seats            float64
+
+Missing values and percentages:
+               count   percent
+name               0  0.000000
+year               0  0.000000
+selling_price      0  0.000000
+km_driven          0  0.000000
+fuel               0  0.000000
+seller_type        0  0.000000
+transmission       0  0.000000
+owner              0  0.000000
+mileage          221  2.718996
+engine           221  2.718996
+max_power        215  2.645177
+torque           222  2.731299
+seats            221  2.718996
+
+Exact duplicate rows: 1202
+
+First five rows:
+                        name  year  selling_price  km_driven   fuel seller_type transmission        owner    mileage  engine  max_power                   torque  seats
+      Maruti Swift Dzire VDI  2014         450000     145500 Diesel  Individual       Manual  First Owner  23.4 kmpl 1248 CC     74 bhp           190Nm@ 2000rpm    5.0
+Skoda Rapid 1.5 TDI Ambition  2014         370000     120000 Diesel  Individual       Manual Second Owner 21.14 kmpl 1498 CC 103.52 bhp      250Nm@ 1500-2500rpm    5.0
+    Honda City 2017-2020 EXi  2006         158000     140000 Petrol  Individual       Manual  Third Owner  17.7 kmpl 1497 CC     78 bhp    12.7@ 2,700(kgm@ rpm)    5.0
+   Hyundai i20 Sportz Diesel  2010         225000     127000 Diesel  Individual       Manual  First Owner  23.0 kmpl 1396 CC     90 bhp 22.4 kgm at 1750-2750rpm    5.0
+      Maruti Swift VXI BSIII  2007         130000     120000 Petrol  Individual       Manual  First Owner  16.1 kmpl 1298 CC   88.2 bhp    11.5@ 4,500(kgm@ rpm)    5.0
+
+Last five rows:
+                  name  year  selling_price  km_driven   fuel seller_type transmission                owner    mileage  engine max_power                    torque  seats
+     Hyundai i20 Magna  2013         320000     110000 Petrol  Individual       Manual          First Owner  18.5 kmpl 1197 CC 82.85 bhp          113.7Nm@ 4000rpm    5.0
+ Hyundai Verna CRDi SX  2007         135000     119000 Diesel  Individual       Manual Fourth & Above Owner  16.8 kmpl 1493 CC   110 bhp 24@ 1,900-2,750(kgm@ rpm)    5.0
+Maruti Swift Dzire ZDi  2009         382000     120000 Diesel  Individual       Manual          First Owner  19.3 kmpl 1248 CC  73.9 bhp            190Nm@ 2000rpm    5.0
+       Tata Indigo CR4  2013         290000      25000 Diesel  Individual       Manual          First Owner 23.57 kmpl 1396 CC    70 bhp       140Nm@ 1800-3000rpm    5.0
+       Tata Indigo CR4  2013         290000      25000 Diesel  Individual       Manual          First Owner 23.57 kmpl 1396 CC    70 bhp       140Nm@ 1800-3000rpm    5.0
+
+Descriptive statistics:
+                count unique                     top  freq           mean            std      min       25%       50%       75%         max
+name             8128   2058  Maruti Swift Dzire VDI   129            NaN            NaN      NaN       NaN       NaN       NaN         NaN
+year           8128.0    NaN                     NaN   NaN    2013.804011       4.044249   1983.0    2011.0    2015.0    2017.0      2020.0
+selling_price  8128.0    NaN                     NaN   NaN  638271.807702  806253.403508  29999.0  254999.0  450000.0  675000.0  10000000.0
+km_driven      8128.0    NaN                     NaN   NaN   69819.510827   56550.554958      1.0   35000.0   60000.0   98000.0   2360457.0
+fuel             8128      4                  Diesel  4402            NaN            NaN      NaN       NaN       NaN       NaN         NaN
+seller_type      8128      3              Individual  6766            NaN            NaN      NaN       NaN       NaN       NaN         NaN
+transmission     8128      2                  Manual  7078            NaN            NaN      NaN       NaN       NaN       NaN         NaN
+owner            8128      5             First Owner  5289            NaN            NaN      NaN       NaN       NaN       NaN         NaN
+mileage          7907    393               18.9 kmpl   225            NaN            NaN      NaN       NaN       NaN       NaN         NaN
+engine           7907    121                 1248 CC  1017            NaN            NaN      NaN       NaN       NaN       NaN         NaN
+max_power        7913    322                  74 bhp   377            NaN            NaN      NaN       NaN       NaN       NaN         NaN
+torque           7906    441          190Nm@ 2000rpm   530            NaN            NaN      NaN       NaN       NaN       NaN         NaN
+seats          7907.0    NaN                     NaN   NaN       5.416719       0.959588      2.0       5.0       5.0       5.0        14.0

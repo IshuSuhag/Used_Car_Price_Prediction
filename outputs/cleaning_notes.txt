@@ -1,0 +1,4 @@
+Cleaning decisions: exact duplicate rows removed; rows with missing/nonpositive selling price, missing/out-of-range year, or missing/negative km_driven removed because they cannot support the target or valid vehicle age. Specification unit strings converted to numeric magnitudes. Legitimate IQR outliers are flagged and visualized but retained.
+Duplicates removed: 1202
+Invalid rows removed: 0
+Rows retained: 6926
