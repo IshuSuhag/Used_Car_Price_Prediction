@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Used Car Price Prediction
 
 **Project:** Used Car Price Prediction Through Data Preprocessing, Exploratory Data Analysis, and Machine Learning
@@ -24,3 +25,6 @@ All run products are written to `outputs/`: dataset inspection and cleaning note
 ## Plots
 
 Price distribution; price by manufacturing year and distance; median price by fuel, transmission, and brand; numeric correlation heatmap; IQR boxplots; and held-out MAE/RMSE comparison. Category plots use medians to reduce the influence of skewed prices. The brand chart includes brands with at least ten observations and shows the fifteen highest medians for readability.
+=======
+"# Used_Car_Price_Prediction" 
+>>>>>>> 5dab4016126e4caa54791189407b10701fba99dd
